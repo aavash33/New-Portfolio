@@ -12,7 +12,7 @@ body{
 
 .main_nav{
    display: block;
-   
+   background-color:  #F7F7F8;
 }
 
 .main_nav li{
@@ -29,7 +29,7 @@ body{
 }
 
 .main_nav a{
-    color: #4B4B4B;
+    color: #333333;
    line-height: normal;
     font-weight: 600;
     text-decoration: none;
@@ -37,11 +37,15 @@ body{
 }
 
 .main_nav a:hover{
-    color: rgb(200, 200, 200);
+    color: #111111;
     border-bottom: 4px solid rgb(200, 200, 200);
    border-radius: 4px;
    padding-bottom: 4px;
    display: inline-block;
+}
+
+.main_nav:active{
+    color: #2563EB;
 }
 
 
@@ -113,7 +117,7 @@ margin-left: 40px;
 margin-top: 20px;
 /* color: grey;
  */
- color: #4B4B4B;}
+ color: #111111;}
 
 .my_projects{
     display: flex;
@@ -126,8 +130,9 @@ flex-direction: row;
 .project3{
     margin-top: 20px;
     width: 33.33%;
-    border-radius: 10%;
-  background-color: #F5F6F8 ;
+    border-radius: 12px;
+  background-color: #F2F2F5 ;
+  border: 1px solid #E5E7EB;
     
 }
 
@@ -172,7 +177,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     word-wrap: break-word;
     overflow: hidden;
     background-color: #f4f5f5 ;
-    color: grey;
+    color: #6B6B6B;
 }
 
 .project1_caption a,
@@ -231,7 +236,8 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .abt_me_cmnt p {
-    color: grey;
+        color: #6B6B6B;
+
 }
 
 .abt_me_cmnt h3{
@@ -263,11 +269,13 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .skills_cmnt p{
-    color: grey;
+        color: #6B6B6B;
+
 }
 
 .skills_cmnt h3{
-    color: #4B4B4B;
+        color: #111111;
+
 }
 
 .skill_icons{
@@ -312,7 +320,7 @@ width: 50%;
 }
 
 .more_header{
-    color: #4B4B4B;
+    color: #111111;
 }
 
 /* <!-- MORE CAPSTONE PROJECT & MORE CAPSTONE PROJECT DIV START -->
@@ -329,7 +337,8 @@ width: 50%;
 }
 
 .more_capstone_project_div p, ul, b{
-    color: gray;
+       color: #6B6B6B;
+
 }
 
 .more_capstone_project {
