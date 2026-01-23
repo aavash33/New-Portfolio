@@ -12,7 +12,7 @@ body{
 
 .main_nav{
    display: block;
-   background-color:  #F7F7F8;
+   background-color:  #F5F7FA;
 }
 
 .main_nav li{
@@ -29,7 +29,7 @@ body{
 }
 
 .main_nav a{
-    color: #333333;
+    color: #475569;
    line-height: normal;
     font-weight: 600;
     text-decoration: none;
@@ -37,7 +37,7 @@ body{
 }
 
 .main_nav a:hover{
-    color: #111111;
+    color: #0F172A;
     border-bottom: 4px solid rgb(200, 200, 200);
    border-radius: 4px;
    padding-bottom: 4px;
@@ -64,12 +64,12 @@ body{
 .header1 h1{
     font-size: 48px;
     font-weight: 700;
-   color: #4B4B4B;
+   color: #0F172A;
     margin: 20px 0;
 }
 
 .header1 h2, h4{
-     color: grey;
+     color: #0F172A;
 }
 
 
@@ -117,7 +117,7 @@ margin-left: 40px;
 margin-top: 20px;
 /* color: grey;
  */
- color: #111111;}
+ color: #0F172A;}
 
 .my_projects{
     display: flex;
@@ -132,18 +132,18 @@ flex-direction: row;
     width: 33.33%;
     border-radius: 12px;
   background-color: #F2F2F5 ;
-  border: 1px solid #E5E7EB;
+  border: 0px solid #c6cad0;
+  margin-left: 2%;
+  margin-right: 2%;
     
 }
 
-.project1,
-.project2,
-.project3{
-    border: 0px solid #c6cad0;
-     border-radius: 12px;
-    margin-left: 20px;
-    
+.project1:muted,
+.project2:muted,
+.project3:muted{
+    color: #FFFFFF;
 }
+
 
 .project1:hover,
 .project2:hover,
@@ -177,7 +177,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     word-wrap: break-word;
     overflow: hidden;
     background-color: #f4f5f5 ;
-    color: #6B6B6B;
+    color: #475569;
 }
 
 .project1_caption a,
@@ -201,6 +201,10 @@ text-decoration: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -2px 4px rgba(0, 0, 0, 0.03);
     border-radius: 5px;
     align-items: center;
+}
+
+.about_me:muted{
+    color: #F7F8FA;
 }
 
 .about_me:hover{
@@ -236,12 +240,12 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .abt_me_cmnt p {
-        color: #6B6B6B;
+        color: #475569;
 
 }
 
 .abt_me_cmnt h3{
-     color: #4B4B4B;
+     color: #0F172A;
 }
 
 
@@ -258,6 +262,10 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
     margin-top: 40px;
 }
 
+.skills:muted{
+    color: #F7F8FA;
+}
+
 .skills:hover{
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
 
@@ -269,12 +277,12 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .skills_cmnt p{
-        color: #6B6B6B;
+        color: #475569;
 
 }
 
 .skills_cmnt h3{
-        color: #111111;
+        color: #0F172A;
 
 }
 
@@ -315,12 +323,16 @@ width: 50%;
    
 }
 
+.more:muted{
+    color: #F7F8FA;
+}
+
 .more:hover{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .more_header{
-    color: #111111;
+    color: #0F172A;
 }
 
 /* <!-- MORE CAPSTONE PROJECT & MORE CAPSTONE PROJECT DIV START -->
@@ -337,7 +349,7 @@ width: 50%;
 }
 
 .more_capstone_project_div p, ul, b{
-       color: #6B6B6B;
+       color: #475569;
 
 }
 
