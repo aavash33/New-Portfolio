@@ -199,7 +199,7 @@ text-decoration: none;
 }
 
 .about_me:hover{
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
 
 
 }
@@ -245,8 +245,121 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
 .skills{
     display: flex;
     flex-direction: column;
+     background-color: #ffffff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -2px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 40px;
 }
 
+.skills:hover{
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
+
+
+}
+
+.skills_cmnt{
+    text-align: center;
+}
+
+.skills_cmnt p{
+    color: grey;
+}
+
+.skills_cmnt h3{
+    color: #4B4B4B;
+}
+
+.skill_icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.skill_icons1,
+.skill_icons2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.nodejs_icon,
+.html_css_js,
+.php_icon,
+.cpp_icon{
+
+width: 50%;
+    max-height: 200px;
+}
+
+
+
+/*MORE DIV STYLING */
+.more{
+    margin-top: 40px;
+    color: black;
+    text-align: center;
+    background-color: white;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -2px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.more:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 -2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.more_header{
+    color: #4B4B4B;
+}
+
+/* <!-- MORE CAPSTONE PROJECT & MORE CAPSTONE PROJECT DIV START -->
+ */
+
+ .more_capstone_project_and_more_capstone_project_div{
+    display: flex;
+ }
+
+/*  <!-- CAPSTONE PROJECT DESCRIPTION DIV -->*/
+.more_capstone_project_div{
+    width: 50%;
+    align-items: start;
+}
+
+.more_capstone_project_div p, ul, b{
+    color: gray;
+}
+
+.more_capstone_project {
+      list-style-type: disc ;
+    padding-left: 20px;
+    margin: 0;
+    display: block ;
+}
+.more_capstone_project li {
+    background-color: transparent;
+    display: block ;
+    cursor: auto;
+}
+
+/* FUCTURE ACCESS FIGURE */
+
+.Future_access_logo{
+  max-width: 60px;
+}
+
+/* LOCALTEAM AUSTRALIA STYLING */
+.intern_LocalTeam_div{
+    width: 50%;
+    overflow: scroll;
+}
+.intern_LocalTeam li{
+    background-color: transparent;
+    cursor: auto;
+        display: block ;
+}
 
 
 
@@ -274,6 +387,53 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
     
 flex-direction: column;
 
+}
+
+
+/* STYLING SKILLS */
+
+.skill_icons{
+    flex-direction: column;
+}
+
+.skill_icons1,
+.skill_icons2{
+   width: 100%;
+}
+
+.nodejs_icon,
+.html_css_js,
+.php_icon,
+.cpp_icon{
+    
+    width: 65%;
+}
+
+
+/* STYLING MORE DIV */
+
+  .more{
+        border-radius: 5%;
+
+        margin-top: 25%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* <!-- MORE CAPSTONE PROJECT & MORE CAPSTONE PROJECT DIV START -->
+ */
+.more_capstone_project_and_more_capstone_project_div{
+    display: flex;
+    flex-direction: column;
+ }
+.more_capstone_project_div,
+.intern_LocalTeam_div{
+    width: 100%;
+}
+/* LOCALTEAM AUSTRALIA STYLING */
+.LocalTeam_Australia_Figure img {
+    width: 200px;      /* adjust size */
+    height: auto;      /* keeps aspect ratio */
 }
 
 
