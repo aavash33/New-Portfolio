@@ -86,7 +86,7 @@ body{
 
 
 .ham-menu{
-    background-color: white;
+    background-color: #F5F7FA;
     height: 30px;
     width: 30px;
     margin-left:auto;
@@ -143,7 +143,7 @@ body{
     font-size: 48px;
     font-weight: 700;
    color: #0F172A;
-    margin: 25px 0;
+    margin: 25px ;
 }
 
 .header1 h2, h4{
