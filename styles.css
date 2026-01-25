@@ -49,6 +49,84 @@ body{
 }
 
 
+.off-screen-menus{
+    background-color: #F5F6F8;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 1.5rem;
+    max-height: 250px;
+    transition: .3s ease;
+    left: -100%;
+}
+
+.off-screen-menus.active{
+    left: 0%;
+}
+
+.off-screen-menus a{
+   color: #475569;
+   text-decoration: none;
+   
+}
+
+
+
+.off-screen-menus li{
+    margin-top: 20px;
+}
+
+
+
+
+.ham-menu{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    margin-left:auto;
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -2px 4px rgba(0, 0, 0, 0.03);
+    justify-content: flex-end;
+}
+
+.ham-menu:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ham-menu span{
+    height: 5px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+
+
+.ham-menu span:nth-child(1){
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3){
+    top: 75%;
+}
+
+
+.ham-menu,
+.off-screen-menus{
+    display: none;
+}
+
 /* Styling headers */
 
 
@@ -135,6 +213,7 @@ flex-direction: row;
   border: 0px solid #c6cad0;
   margin-left: 2%;
   margin-right: 2%;
+  overflow: scroll;
     
 }
 
@@ -160,7 +239,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
    display: flex;
    justify-content: center;
    background-color: #ffffff;
-   
+   overflow: scroll;
     border-radius: 10%;
 }
 
@@ -169,6 +248,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     max-width: 260px;
     max-height: 300px;
      background-color: #dbdada;
+     overflow: scroll;
 }
 
 .project1_caption,
@@ -384,9 +464,40 @@ width: 50%;
 
 
 
-/* MEDIA QUERIES */
 
+
+    /* MEDIA QUERIES */
 @media (max-width:710px){
+
+
+
+
+
+
+/* STYLING NAV */
+
+.main_nav{
+   display: none;
+}
+
+.ham-menu,
+.off-screen-menus{
+    display: block;
+  
+
+}
+
+.ham-menu span{
+
+}
+
+
+
+/* END OF NAV DIV */
+
+
+
+
 
     .my_projects{
         flex-direction: column;
