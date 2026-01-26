@@ -91,13 +91,10 @@ body{
     width: 30px;
     margin-left:auto;
     position: absolute;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -2px 4px rgba(0, 0, 0, 0.03);
+  
     justify-content: flex-end;
 }
 
-.ham-menu:hover{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 -2px 4px rgba(0, 0, 0, 0.1);
-}
 
 .ham-menu span{
     height: 5px;
