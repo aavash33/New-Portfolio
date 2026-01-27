@@ -462,6 +462,73 @@ width: 50%;
 
 
 
+/* FOOTER STYLING */
+.footer{
+    background-color: #F5F7FA;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer_head {
+    display: inline;
+    font-weight: 700;
+margin-top: 0.5rem;
+color: #0F172A;
+
+}
+
+.footer p{
+    display: inline;
+    margin-top: 0.1rem;
+    color: #475569;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+}
+
+.icon{
+    display: inline;
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.linkedin_icon,
+.github_icon{
+    max-width: 25px;
+    max-height: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* MEDIA QUERIES */
 @media (max-width:710px){
@@ -565,6 +632,16 @@ flex-direction: column;
     height: auto;      /* keeps aspect ratio */
 }
 
+
+
+
+/* FOOTER STYLING */
+.footer{
+    background-color: #F5F7FA;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
 
 
 }
