@@ -563,6 +563,7 @@ color: #0F172A;
 
     .my_projects{
         flex-direction: column;
+        align-items: center;
     }
 
     .project1,
@@ -570,7 +571,7 @@ color: #0F172A;
 .project3{
     margin-top: 20px;
     width: 90%;
-    
+    border: 2px;
     margin-left: 1%;
     border-radius: 12px;
     overflow: auto;
