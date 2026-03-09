@@ -166,10 +166,11 @@ body{
     color: grey;
     border: 2px solid rgb(0, 0, 0);
     padding: 10px 20px 10px 10px;
-    border-radius: 5%;
+    border-radius: 5px;
     font-weight: 700;
     -webkit-appearance: none;
     appearance: none;   
+    transition: 1s;
 }
 
 .btn_contact_me:hover,
@@ -178,6 +179,12 @@ body{
    background-color: #4B4B4B;
    color: white;
    border: 1px solid rgb(0, 0, 0);
+   transform: translateX(-14px) scaleX(0.942);
+  
+}
+.header_buttons .btn_view_project:hover{
+    transform: translateX(-2px) scaleX(0.942);
+
 }
 
 /* MAIN HEADER  */
