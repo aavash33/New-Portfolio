@@ -510,6 +510,12 @@ color: #0F172A;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    transition: 1s;
+}
+
+.linkedin_icon:hover,
+.github_icon:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .linkedin_icon,
