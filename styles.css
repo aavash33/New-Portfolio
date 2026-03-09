@@ -514,12 +514,17 @@ color: #0F172A;
 }
 
 .linkedin_icon:hover,
-.github_icon:hover {
+.facebook_icon:hover {
+    transform: scale(1.06, 1.06);
+}
+.github_icon:hover
+{
     transform: scale(1.1, 1.1);
 }
 
 .linkedin_icon,
-.github_icon{
+.github_icon,
+.facebook_icon{
     max-width: 25px;
     max-height: 25px;
     cursor: pointer;
